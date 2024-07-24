@@ -1,0 +1,8 @@
+br\com\fby\enums\TypePaymentEnum.class
+br\com\fby\domain\bank\Bank.class
+br\com\fby\domain\statement\Statement.class
+br\com\fby\domain\user\User.class
+br\com\fby\domain\payment\type\TypePayment.class
+br\com\fby\domain\user\UserRole.class
+br\com\fby\FbyApplication.class
+br\com\fby\domain\payment\Payment.class
