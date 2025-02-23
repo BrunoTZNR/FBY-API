@@ -211,11 +211,11 @@ replay_pid*
 app.*
 discord.xml
 compiler.xml
-endcodings.xml
+encodings.xml
 jarRepositories.xml
-vsc.xml
+vcs.xml
 misc.xml
 *.original
 *.lst
-*.FbyApplicationTests.xml
-*.FbyApplicationTests.txt
+TEST-br.com.fby.FbyApplicationTests.xml
+br.com.fby.FbyApplicationTests.txt

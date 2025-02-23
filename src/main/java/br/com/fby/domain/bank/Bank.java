@@ -3,6 +3,7 @@ package br.com.fby.domain.bank;
 import java.io.Serializable;
 import java.util.List;
 
+import br.com.fby.dto.BankDTO;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import br.com.fby.domain.payment.Payment;
@@ -35,4 +36,12 @@ public class Bank implements Serializable{
 	@OneToMany(mappedBy = "bank")
 	@JsonIgnore
 	private List<Payment> payment;
+
+	public Bank(String description) {
+		this.description = description;
+	}
+
+	public BankDTO toDTO() {
+		return new BankDTO(this.idBank, this.description);
+	}
 }
